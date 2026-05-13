@@ -2,6 +2,8 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-direction: column;
+    gap: 60px;
 }
 li{
     list-style: none;
@@ -47,4 +49,20 @@ button{
 }
 button:hover{
     background-color: #0056b3;
+}
+@media (max-width: 500px) {
+    nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+    a{
+        font-size: 16px;
+    }
+    p{
+        font-size: 16px;
+    }
+    button{
+        font-size: 16px;
+    }
+    
 }
