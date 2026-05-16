@@ -9,7 +9,7 @@ button.addEventListener("click", (event) => {
     console.log(nom.value);
     console.log(email.value);
     console.log(password.value);
-    alert("Nom: " + nom.value + "\nEmail: " + email.value + "\nPassword: " + password.value);
+    
 });
 if (nom.value === "" || email.value === "" || password.value === "") {
     alert("Please fill in all fields");
