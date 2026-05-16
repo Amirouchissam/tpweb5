@@ -10,8 +10,7 @@ button.addEventListener("click", (event) => {
     console.log(email.value);
     console.log(password.value);
     
-});
-if (nom.value === "" || email.value === "" || password.value === "") {
+    if (nom.value === "" || email.value === "" || password.value === "") {
     alert("Please fill in all fields");
 }
 else if (nom.value !== "" && email.value === "" && password.value !== "") {
@@ -23,3 +22,4 @@ else if (nom.value !== "" && email.value !== "" && password.value === "") {
 else if (nom.value === "" && email.value !== "" && password.value !== "") {
     alert("Please fill in the nom field");
 }
+});
